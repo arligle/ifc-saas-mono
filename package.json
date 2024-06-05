@@ -19,6 +19,7 @@
     "lint:ws": "pnpm dlx sherif@latest",
     "postinstall": "pnpm lint:ws",
     "typecheck": "turbo typecheck",
+    "gen-package": "pnpm turbo gen init",
     "ui-add": "pnpm -F ui ui-add"
   },
   "devDependencies": {
